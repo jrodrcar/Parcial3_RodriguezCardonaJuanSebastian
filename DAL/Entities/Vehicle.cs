@@ -14,5 +14,6 @@ namespace Parcial3_RodriguezCardonaJuanSebastian.DAL.Entities
         [Display(Name = "Placa")]
         [Required(ErrorMessage = "El campo {0} es oblilgatorio.")]
         public string NumberPlace { get; set; }
+
     }
 }

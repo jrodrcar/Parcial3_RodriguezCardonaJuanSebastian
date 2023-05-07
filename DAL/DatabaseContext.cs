@@ -12,6 +12,14 @@ namespace Parcial3_RodriguezCardonaJuanSebastian.DAL
         }
 
         public DbSet<Service> Services { get; set; }
+        //public DbSet<User> Users{ get; set; }
+
+
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    base.OnModelCreating(modelBuilder);
+        //    modelBuilder.Entity<Service>().HasIndex(s => s.Name).IsUnique();
+        //}
 
     }
 }
